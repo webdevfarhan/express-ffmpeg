@@ -1,0 +1,29 @@
+{
+  "name": "express-ffmpeg",
+  "version": "1.0.0",
+  "description": "Express server using ffmpeg to resize videos",
+  "main": "server.js",
+  "scripts": {
+    "test": "server",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webdevfarhan/express-ffmpeg.git"
+  },
+  "keywords": [
+    "ffmpeg",
+    "video",
+    "resizer"
+  ],
+  "author": "webdevfarhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webdevfarhan/express-ffmpeg/issues"
+  },
+  "homepage": "https://github.com/webdevfarhan/express-ffmpeg#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "fluent-ffmpeg": "^2.1.2"
+  }
+}
